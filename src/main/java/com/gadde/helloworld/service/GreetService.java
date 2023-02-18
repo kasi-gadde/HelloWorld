@@ -4,4 +4,6 @@ import com.gadde.helloworld.web.model.GreetingDto;
 
 public interface GreetService {
     GreetingDto greet(String name);
+
+    GreetingDto saveGreeting(GreetingDto greetingDto);
 }

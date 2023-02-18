@@ -12,4 +12,10 @@ public class GreetServiceImpl implements GreetService{
                 .name(name)
                 .build();
     }
+
+    @Override
+    public GreetingDto saveGreeting(GreetingDto greetingDto) {
+        //greetingDto.setName("Name Modified");
+        return greetingDto;
+    }
 }
